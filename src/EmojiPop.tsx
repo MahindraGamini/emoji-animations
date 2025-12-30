@@ -32,9 +32,10 @@ export function EmojiPop({ emoji , count }: EmojiPopProps) {
       <button
         onClick={pop}
         style={{
-         
           padding: "0.5rem 1rem",
-          
+          border: "none",
+          background: "transparent",
+          cursor: "pointer"
         }}
       >
         {emoji}
