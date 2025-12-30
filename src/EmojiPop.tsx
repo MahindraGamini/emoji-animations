@@ -34,6 +34,7 @@ export function EmojiPop({ emoji , count }: EmojiPopProps) {
         style={{
           padding: "0.5rem 1rem",
           border: "none",
+          outline: "none",
           background: "transparent",
           cursor: "pointer"
         }}
@@ -50,9 +51,10 @@ export function EmojiPop({ emoji , count }: EmojiPopProps) {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
-                position: "fixed",
+                position: "absolute",
                 left: "50%",
                 top: "50%",
+                transform: "translate(-50%, -50%)",
                 pointerEvents: "none",
                 fontSize: "1.25rem"
               }}
