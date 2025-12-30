@@ -10,9 +10,9 @@
   "types": "./dist/pop-emojis.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/pop-emojis.d.ts",
       "import": "./dist/pop-emojis.js",
-      "require": "./dist/pop-emojis.umd.cjs",
-      "types": "./dist/pop-emojis.d.ts"
+      "require": "./dist/pop-emojis.umd.cjs"
     }
   },
   "files": [
