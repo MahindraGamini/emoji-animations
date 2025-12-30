@@ -42,7 +42,10 @@ export default function App() {
 }
 ```
 ## Demo
-![Demo](assets/npm-library.gif)
+## Demo
+
+![Demo](https://raw.githubusercontent.com/MahindraGamini/pop-emojis/main/assets/npm-library.gif)
+
 
 **What happens?**
 
