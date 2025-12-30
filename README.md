@@ -44,7 +44,7 @@ export default function App() {
 ## Demo
 ## Demo
 
-![Demo](https://raw.githubusercontent.com/MahindraGamini/pop-emojis/main/assets/npm-library.gif)
+![Demo](https://github.com/MahindraGamini/emoji-animations/blob/main/assets/npm-library.gif)
 
 
 **What happens?**
