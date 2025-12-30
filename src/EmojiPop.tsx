@@ -19,7 +19,7 @@ export function EmojiPop({ emoji = "🔥", count = 6 }: EmojiPopProps) {
     const base = Date.now()
     const newItems = Array.from({ length: count }, (_, i) => ({
       id: base + i,
-      x: Math.random() * 180 - 80,
+      x: Math.random() * 120 - 80,
       y: Math.random() * -100
     }))
     setItems(newItems)
@@ -33,7 +33,7 @@ export function EmojiPop({ emoji = "🔥", count = 6 }: EmojiPopProps) {
         onClick={pop}
         className="rounded  px-4 py-2 text-white"
       >
-        🫡
+        {emoji}
       </button>
 
       <AnimatePresence>

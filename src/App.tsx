@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <EmojiPop />
+      <EmojiPop emoji="😂😂" count={5} />
     </div>
   )
 }
