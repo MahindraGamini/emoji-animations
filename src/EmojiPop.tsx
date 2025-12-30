@@ -12,7 +12,7 @@ type EmojiItem = {
   y: number
 }
 
-export function EmojiPop({ emoji = "🔥", count = 6 }: EmojiPopProps) {
+export function EmojiPop({ emoji,count}: EmojiPopProps) {
   const [items, setItems] = useState<EmojiItem[]>([])
 
   const pop = () => {
