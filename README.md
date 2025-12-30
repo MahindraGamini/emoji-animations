@@ -1,23 +1,22 @@
-# pop-emojis 🎉
-
+# pop-emojis 
 A tiny, opinionated React component that creates smooth emoji pop animations on click — built on top of Framer Motion.
 
 Perfect for reactions, likes, feedback buttons, and fun micro-interactions with **zero animation setup**.
 
 ---
 
-## ✨ Features
+## Features
 
 -  **One-line usage** — Add emoji pops in seconds
 -  **Built on Framer Motion** — Smooth, physics-based animations
 -  **Sensible defaults** — Works great out of the box
-- 📦 **Zero boilerplate** — No animation code required
-- 🔒 **Fully typed** — Complete TypeScript support
-- ⚛️ **React 17+** — Compatible with modern React
+-  **Zero boilerplate** — No animation code required
+-  **Fully typed** — Complete TypeScript support
+-  **React 17+** — Compatible with modern React
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 npm install pop-emojis framer-motion
@@ -27,7 +26,7 @@ npm install pop-emojis framer-motion
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Example
 
@@ -43,7 +42,8 @@ export default function App() {
 }
 ```
 ## Demo
-https://jumpshare.com/s/bdxt3CZ5vQcolmaAu8bp
+![Demo] (assets/npm-library.gif)
+
 **What happens?**
 
 1. You see 🫡
@@ -84,11 +84,9 @@ Yes, you can use Framer Motion directly.
 
 This library exists to:
 
-✅ **Remove repetitive animation code** — Don't write the same pop logic over and over
-
-✅ **Provide a ready-made reaction interaction** — Common UX pattern, pre-built
-
-✅ **Keep animation logic out of your app** — Focus on features, not micro-interactions
+**Remove repetitive animation code** — Don't write the same pop logic over and over
+**Provide a ready-made reaction interaction** — Common UX pattern, pre-built
+**Keep animation logic out of your app** — Focus on features, not micro-interactions
 
 Think of it as a **pre-built micro-interaction**, not an animation engine.
 
