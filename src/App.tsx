@@ -6,8 +6,10 @@ function App() {
 
 
   return (
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh" }}>
-      <EmojiPop emoji="😘😘" count={5} />
+    <div style={{ display: "flex", alignItems: "center", minHeight: "100vh" }}>
+      <EmojiPop emoji="😘" count={5} />
+        <EmojiPop emoji="😂" count={5} />
+          <EmojiPop emoji="🔥" count={5} />
     </div>
   )
 }

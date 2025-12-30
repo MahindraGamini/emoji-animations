@@ -46,8 +46,8 @@ export function EmojiPop({ emoji , count }: EmojiPopProps) {
         {items.map(({ id, x, y }) => (
             <motion.span
               key={id}
-              initial={{ scale: 0.5, opacity: 1, x: 0, y: 0 }}
-              animate={{ scale:1, opacity: 0, x, y }}
+              initial={{ scale: 0.6, opacity: 2, x: 0, y: 0 }}
+              animate={{ scale:1.2, opacity: 0, x, y }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
