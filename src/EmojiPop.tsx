@@ -12,12 +12,12 @@ type EmojiItem = {
   y: number
 }
 
-export function EmojiPop({ emoji,count}: EmojiPopProps) {
+export function EmojiPop({ emoji , count }: EmojiPopProps) {
   const [items, setItems] = useState<EmojiItem[]>([])
 
   const pop = () => {
     const base = Date.now()
-    const newItems = Array.from({ length: count }, (_, i) => ({
+    const newItems  = Array.from({ length: count }, (_, i) => ({
       id: base + i,
       x: Math.random() * 120 - 80,
       y: Math.random() * -100
@@ -28,10 +28,14 @@ export function EmojiPop({ emoji,count}: EmojiPopProps) {
   }
 
   return (
-    <div className="relative inline-block">
+    <div style={{ position: "relative", display: "inline-block" }}>
       <button
         onClick={pop}
-        className="rounded  px-4 py-2 text-white"
+        style={{
+          borderRadius: "0.25rem",
+          padding: "0.5rem 1rem",
+          color: "white"
+        }}
       >
         {emoji}
       </button>
@@ -44,7 +48,13 @@ export function EmojiPop({ emoji,count}: EmojiPopProps) {
               animate={{ scale:1, opacity: 0, x, y }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="pointer-events-none absolute left-1/2 top-1/3 text-xl"
+              style={{
+                position: "fixed",
+                left: "50%",
+                top: "50%",
+                pointerEvents: "none",
+                fontSize: "1.25rem"
+              }}
             >
               {emoji}
             </motion.span>

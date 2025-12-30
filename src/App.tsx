@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh" }}>
       <EmojiPop emoji="😘😘" count={5} />
     </div>
   )
