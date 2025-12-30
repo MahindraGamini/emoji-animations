@@ -42,7 +42,7 @@ export default function App() {
 }
 ```
 ## Demo
-![Demo] (assets/npm-library.gif)
+![Demo](assets/npm-library.gif)
 
 **What happens?**
 
