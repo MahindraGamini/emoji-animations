@@ -33,6 +33,11 @@ function App() {
 | `emoji` | `string` | `"🎉"` | The emoji to display when popped |
 | `count` | `number` | `6` | Number of emojis to animate on click |
 
+
+
+## Demo
+https://jumpshare.com/s/bdxt3CZ5vQcolmaAu8bp
+
 ## Examples
 
 ```tsx
