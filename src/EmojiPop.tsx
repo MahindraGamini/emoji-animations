@@ -32,9 +32,9 @@ export function EmojiPop({ emoji , count }: EmojiPopProps) {
       <button
         onClick={pop}
         style={{
-          borderRadius: "0.25rem",
+         
           padding: "0.5rem 1rem",
-          color: "white"
+          
         }}
       >
         {emoji}
